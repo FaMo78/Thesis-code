@@ -30,7 +30,7 @@ The approach combines **unsupervised learning** (for segmentation) and **supervi
 - **Unsupervised Learning**
   - **K-Means Clustering** (Optimal k selected via Elbow & Silhouette)
   - **Hierarchical Clustering** (for validation)
-  - **RFM + Risk Features** (Recency, Frequency, Monetary + Overdue Debt, Negative Status Loans)
+  - **Genetic Algorithm (GA)**: Optimizes initial centroids for K-Means to avoid local optima.
 - **Supervised Learning**
   - **XGBoost Classifier** (High-performance gradient boosting)
   - **Logistic Regression** (Baseline model for interpretability)
