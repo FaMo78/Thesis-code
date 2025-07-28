@@ -4,14 +4,14 @@
 **Published Research:** *"Credit Risk Management for Enhancing Facilities Allocation to Bank Customers"*
 
 This repository presents a machine learning-based framework for **credit risk segmentation** and **default probability prediction** of bank customers. Developed as part of my academic thesis, this project combines **clustering techniques** and **predictive modeling** to support smarter loan allocation and risk management in the banking sector.
+
+> 🔒 **Note on Data Privacy**: Due to confidentiality and privacy constraints related to real banking data, **actual output values, customer identifiers, and sensitive financial figures have been removed or anonymized** in the shared notebooks. The analysis logic, code structure, and methodology remain fully intact and reproducible.
 ---
 
 ## 📁 Files Included
-- `kmeans_kaggle.html` → **K-Means clustering** for customer segmentation based on financial behavior.
-- `Otherclustering_Ranking_Predict_kaggle.html` → **Hierarchical clustering**, customer risk ranking, and **default prediction models** (XGBoost, Logistic Regression).
-- `train.csv`, `test.csv` → Dataset used for training and testing models (structured similarly to real banking data).
+- `thesis-code.html` → Complete implementation of the thesis project, including **K-Means clustering**, **risk-based customer segmentation**, and **default prediction models (XGBoost, Logistic Regression)**.
 
-> 💡 **Tip**: Open `.html` files directly in your browser to view full code, outputs, and visualizations
+> 💡 **Tip**: Open `.html` files directly in your browser to view the full notebook — including code, visualizations (with dummy/obfuscated values), and model workflows.
 
 ---
 
